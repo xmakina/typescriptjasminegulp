@@ -1,0 +1,19 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Typescript, Jasmine and Gulp together at last",
+  "main": "",
+  "scripts": {
+    "postinstall": "typings install",
+    "test": "gulp test"
+  },
+  "author": "Alex Addams <github@xmakina.co.uk> [http://www.xmakina.co.uk]",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.3.0",
+    "gulp-typescript": "^2.13.6",
+    "jasmine": "^2.4.1"
+  }
+}
